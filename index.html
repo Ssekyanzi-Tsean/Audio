@@ -28,5 +28,18 @@
             </div>
         </div>
     </div>
+
+    <audio id="myjam">
+        <source src="./images/fever.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var myjam = document.getElementById("myjam")
+        var icon = document.getElementById("icon")
+
+        icon.onclick = function(){
+            myjam.play();
+        }
+    </script>
 </body>
 </html>
